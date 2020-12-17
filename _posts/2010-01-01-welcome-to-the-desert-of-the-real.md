@@ -2,13 +2,13 @@
 date: 2020-12-17T17:00:05.000Z
 layout: post
 title: Welcome to the Young Hong Blog
-subtitle: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+subtitle: 'False Developer.'
 description: >-
-  코딩이 즐거운 개발자
+  진짜가 되고싶은 가짜 개발자
 image: >-
   https://younghong.github.io/assets/img/main.jpg
 optimized_image: >-
-  https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559821647/theme6_qeeojf.jpg
+  https://younghong.github.io/assets/img/main.jpg
 category: blog
 tags:
   - welcome
