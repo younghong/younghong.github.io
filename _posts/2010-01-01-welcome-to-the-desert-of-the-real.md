@@ -1,11 +1,10 @@
 ---
-date: 2019-05-16T23:48:05.000Z
+date: 2020-12-17T17:00:05.000Z
 layout: post
 title: Welcome to the Young Hong Blog
 subtitle: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
 description: >-
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua.
+  코딩이 즐거운 개발자
 image: >-
   https://younghong.github.io/assets/img/main.jpg
 optimized_image: >-
