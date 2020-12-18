@@ -1,9 +1,9 @@
 ---
 date: 2018-11-22 12:26:40
 layout: post
-title: 재밌는 한글 암호화
-subtitle: 한글 받침 제거
-description: 한글 받침을 제거하여 한국인만 알아보는 한글 암호화.
+title: 테스트1
+subtitle: 테스트 서브 타이틀
+description: 테스트 설명
 image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559822138/theme9_v273a9.jpg
 optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559822138/theme9_v273a9.jpg
 category: DEV
