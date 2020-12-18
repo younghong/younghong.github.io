@@ -1,8 +1,7 @@
 # Site Settings
 name: YoungHong
-title: YoungHong | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+title: FALSE Developer
+description: 진짜가 되고싶은 가짜 개발자.
 tags:
   - blog
   - template
@@ -25,10 +24,10 @@ disqus_username: disqus_username
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
+github_username: younghong
+facebook_username: younghong.kim
 twitter_username: twitter_username
-instagram_username: instagram_username
+instagram_username: younghongk
 linkedin_username: linkedin_username
 medium_username: medium_username
 
