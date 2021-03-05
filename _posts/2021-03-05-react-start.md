@@ -162,6 +162,8 @@ export default App2;
   
 ```
 ##### 7-2 Hooks을 사용한 코드
+위 코드보다 훨씬 더 간결해졌다.
+effect , Higher Order Hook등 배워야할게 많다
 ```js
 import React, {useState} from 'react';
 
