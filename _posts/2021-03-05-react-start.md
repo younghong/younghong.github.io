@@ -123,6 +123,64 @@ function App() {
 export default App;
 ```
 
+
+#### 7.리액트 Hooks
+리액트를 functional programming style로 만들어주는 기능.
+
+아래 코드는 단순 카운트를 늘려주지만
+많은 것들을 정의해야 한다.
+Class Component , state 선언, 정의 패스...
+
+##### 7-1 일반적인 코드
+```js
+import React from 'react';
+
+class App2 extends React.Component {
+
+    state = {
+        count:0
+    }
+
+    modify = (n) => {
+        this.setState({
+            count:n
+        });
+    };
+
+    render() {
+        const { count } = this.state;
+      return (
+        <div className="game">
+            <div>{count}</div>
+            <button onClick={ () => this.modify(count+1)}>Incremnt</button>
+        </div>
+      );
+    }
+  }
+
+export default App2;
+  
+```
+##### 7-2 Hooks을 사용한 코드
+```js
+import React, {useState} from 'react';
+
+const App = () => {
+    const [count, setCount] = useState(0);
+
+    return (
+        <div className="game">
+            <div>Hook</div>
+            <div>{count}</div>
+            <button onClick={ () => setCount(count+1)}>Incremnt</button>
+        </div>
+    )
+}
+
+export default App;
+```
+
+
 ![placeholder](https://younghong.github.io/img/react_logo.png "install file")
 
 
