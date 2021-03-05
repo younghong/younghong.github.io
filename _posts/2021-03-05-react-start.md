@@ -27,6 +27,9 @@ Node.js가 없다면 설치한다.
 #### 2.react project 생성
 npm install 단계 없이 'create-react-app my-app' 명령어를 실행해도 되지만
 version이 맞지 않다는 오류가 발생하면 'npm install -g create-react-app' 명령어를 실행해야 한다.
+
+<ins>*VSCode의 터미널을 Shell로 설정해뒀다면 ShellScript 오류가 발생할 수 있다
+윈도우 사용자라면 cmd로 바꿔놓는게 편할꺼다.*</ins>
 ```shell
 $ npm install -g create-react-app
 $ create-react-app my-app
@@ -49,8 +52,33 @@ function App() {
 export default App;
 ```
 
+#### 4.ES6 문법
+```js
 
-#### 4.hello world
+//전통적인 문법
+function bob (a){
+  return a + 100;
+}
+
+// Arrow Function
+let bob = a => a + 100;
+
+
+
+//전통적인 문법
+function sum(a,b){
+  return a+b;
+}
+
+// Arrow Function
+sum = (a,b) => {
+        return a+b;
+}
+
+```
+
+
+#### 5.hello world
 코딩의 시작 hello world를 찍어보자.
 ```js
 function App() {
@@ -63,7 +91,7 @@ export default App;
 ```
 
 
-#### 5.Component 생성
+#### 6.Component 생성
 class로 컴포넌트를 생성하고,
 생성된 컴포넌트를 호출한다.
 ```js
@@ -91,7 +119,7 @@ function App() {
 export default App;
 ```
 
-#### 6.속성 넘기기
+#### 7.속성 넘기기
 ```js
 import React from 'react';
 import './App.css';
@@ -124,14 +152,13 @@ export default App;
 ```
 
 
-#### 7.리액트 Hooks
+#### 8.리액트 Hooks
 리액트를 functional programming style로 만들어주는 기능.
 
-아래 코드는 단순 카운트를 늘려주지만
-많은 것들을 정의해야 한다.
-Class Component , state 선언, 정의 패스...
+아래 코드는 단순 카운트를 늘려주는 코드지만
+해야할 것들이 많다.
 
-##### 7-1 일반적인 코드
+##### 8-1 일반적인 코드
 ```js
 import React from 'react';
 
@@ -161,9 +188,8 @@ class App2 extends React.Component {
 export default App2;
   
 ```
-##### 7-2 Hooks을 사용한 코드
-위 코드보다 훨씬 더 간결해졌다.
-effect , Higher Order Hook등 배워야할게 많다
+##### 8-2 Hooks을 사용한 코드
+훅을 사용하니 위 코드보다 훨씬 더 간결해졌다.
 ```js
 import React, {useState} from 'react';
 
@@ -181,7 +207,7 @@ const App = () => {
 
 export default App;
 ```
-
+>effect , Higher Order Hook등 배워야할게 많다
 
 ![placeholder](https://younghong.github.io/img/react_logo.png "install file")
 
