@@ -18,13 +18,13 @@ author: yh.kim
 
 ## React 시작하기
 
-###1.nodejs 설치
+#### 1.nodejs 설치
 
 Node.js가 없다면 설치한다. 
 설치 링크를 아래에 연결해 놓았다.
 [node.js](https://nodejs.org/en/ "node js")
 
-###2.react project 생성
+#### 2.react project 생성
 npm install 단계 없이 'create-react-app my-app' 명령어를 실행해도 되지만
 version이 맞지 않다는 오류가 발생하면 'npm install -g create-react-app' 명령어를 실행해야 한다.
 ```shell
@@ -32,7 +32,7 @@ $ npm install -g create-react-app
 $ create-react-app my-app
 ```
 
-###3.JSX 문법
+#### 3.JSX 문법
 javascript와 xml이 결합된 표현식
 기본적인 사용 방법은 html tag를 return해 주면된다.
 
@@ -50,7 +50,7 @@ export default App;
 ```
 
 
-###4.hello world
+#### 4.hello world
 코딩의 시작 hello world를 찍어보자.
 ```js
 function App() {
@@ -63,7 +63,7 @@ export default App;
 ```
 
 
-###5.Component 생성
+#### 5.Component 생성
 class로 컴포넌트를 생성하고,
 생성된 컴포넌트를 호출한다.
 ```js
@@ -91,7 +91,7 @@ function App() {
 export default App;
 ```
 
-###6.속성 넘기기
+#### 6.속성 넘기기
 ```js
 import React from 'react';
 import './App.css';
