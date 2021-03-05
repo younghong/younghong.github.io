@@ -36,7 +36,7 @@ $ create-react-app my-app
 ```
 
 #### 3.JSX 문법
-javascript와 xml이 결합된 표현식
+javascript와 xml이 결합된 표현식이다.
 기본적인 사용 방법은 html tag를 return해 주면된다.
 
 ```js
@@ -53,6 +53,7 @@ export default App;
 ```
 
 #### 4.ES6 문법
+리액트는 js 라이브러리이며, es6문법이 종종 등장한다.
 ```js
 
 //전통적인 문법
