@@ -213,7 +213,7 @@ export default App;
 Redux는 angular,Vue,바닐라 등에서도 사용하는 javascript library.
 
 Redux 설명 이미지-1
-![placeholder](https://younghong.github.io/img/blog_2021-03-07 (2).png "Object Tree")
+![placeholder](https://younghong.github.io/img/blog_2021-03-07(2).png "Object Tree")
 
 Redux 설명 이미지-2
 ![placeholder](https://younghong.github.io/img/blog_2021-03-07.png "Object Tree")
