@@ -218,6 +218,7 @@ Redux 설명 이미지-1
 Redux 설명 이미지-2
 ![placeholder](https://younghong.github.io/img/blog_2021-03-07.png "Object Tree")
 
+
 dispatch (action) => hadle (reducer) => update store
 
 npm init -y
