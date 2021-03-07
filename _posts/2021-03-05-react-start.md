@@ -213,13 +213,16 @@ export default App;
 Redux는 angular,Vue,바닐라 등에서도 사용하는 javascript library.
 
 Redux 설명 이미지-1
-![placeholder](http://www.ubstorm.co.kr/assets/images/img_cp_08.png "Object Tree")
+![placeholder](https://younghong.github.io/img/blog_2021-03-07 (2).png "Object Tree")
 
 Redux 설명 이미지-2
 ![placeholder](https://younghong.github.io/img/blog_2021-03-07.png "Object Tree")
 
 dispatch (action) => hadle (reducer) => update store
 
+npm init -y
+npm install redux
+npm install redux react-redux
 
 
 >effect , Higher Order Hook등 배워야할게 많다
