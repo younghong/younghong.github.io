@@ -28,7 +28,7 @@ Node.js가 없다면 설치한다.
 npm install 단계 없이 'create-react-app my-app' 명령어를 실행해도 되지만
 version이 맞지 않다는 오류가 발생하면 'npm install -g create-react-app' 명령어를 실행해야 한다.
 
-<ins>*VSCode의 터미널을 Shell로 설정해뒀다면 ShellScript 오류가 발생할 수 있다
+<ins>*VSCode의 터미널을 Shell로 설정해뒀다면 ShellScript 오류가 발생할 수 있다1
 윈도우 사용자라면 cmd로 바꿔놓는게 편할꺼다.*</ins>
 ```shell
 $ npm install -g create-react-app
